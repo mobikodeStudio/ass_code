@@ -16,6 +16,7 @@ import java.util.List;
  */
 
 
+
 public class ArticlePojo implements Parcelable {
     private String status;
     private String copyright;
