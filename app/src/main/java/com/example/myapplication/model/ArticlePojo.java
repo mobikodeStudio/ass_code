@@ -14,6 +14,8 @@ import java.util.List;
  * Copyright (c) 2019. All rights reserved by mobikode studio.
  * Last modified 16:19
  */
+
+
 public class ArticlePojo implements Parcelable {
     private String status;
     private String copyright;
