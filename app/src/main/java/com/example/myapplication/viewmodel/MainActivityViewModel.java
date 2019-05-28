@@ -11,24 +11,19 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.myapplication.model.ArticlePojo;
 import com.example.myapplication.networking.ArticleRepository;
 
+import static com.example.myapplication.utils.Constants.API_KEY;
+
 /**
  * Created by Rakesh Prajapat on 2019-05-26
  * Copyright (c) 2019. All rights reserved by mobikode studio.
  * Last modified 12:55
  */
 public class MainActivityViewModel extends ViewModel  {
-    private ArticlePojo articlePojo;
+
     private MutableLiveData<ArticlePojo> mutableLiveData;
     private ArticleRepository articleRepository;
 
 
-    /*@BindingAdapter({"bind:imageUrl"})
-    public static void LoadImageUrl(ImageView imageView,String imageUrl){
-        Glide.with(imageView.getContext())
-                .load(imageUrl)
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(imageView);
-    }*/
 
 
     public void init(){
@@ -36,7 +31,7 @@ public class MainActivityViewModel extends ViewModel  {
             return;
         }
         articleRepository = ArticleRepository.getInstance();
-        mutableLiveData = articleRepository.getNews( "NUAJ3CVPu8aWklqdATKJYGeXLf4QNaJA");
+        mutableLiveData = articleRepository.getNews( API_KEY);
 
     }
 
