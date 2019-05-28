@@ -16,3 +16,6 @@ For circular image view i used external library and for image loading i Used Gli
 Live data APi is used to handle all screen configuration changes.
 MVVM structure is very neat and clean Architecture for android project.
 Data binding is used for set data in views with help of this library we can reduce lots of code.
+#
+![Alt text](./main_screen.jpg?raw=true "blog")
+![Alt text](./details.jpg?raw=true "blog")
