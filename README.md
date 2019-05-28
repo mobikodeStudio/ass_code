@@ -8,6 +8,8 @@
 ###                a)	Live Data API (Responsible for Device configuration change)
 ###                b)	Data Binding (Reduce boilerplates of code so increase app performance.)
        
+       
+       https://github.com/mobikodeStudio/ass_code/blob/master/Untitled%20Diagram.jpg
 In this project i have used Live dataApi and MVVM Architecture for code pattern with Databinding.
 I used Retrofit for network call for data fatching.
 For circular image view i used external library and for image loading i Used Glide library.
